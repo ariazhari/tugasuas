@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+img{
+    border-radius: 150px;
+}
+body{
+    background-image: url(a.jpg);
+    text-align: center;
+    color: rgba(129, 107, 47, 0.699);
+    background-size: cover;
+}
+p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    
+}
+img:hover{
+    transform: scale(1.2);
+}
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+h4{
+    color: rgb(47, 165, 219);
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman bold', Times, serif;
+    
+}
+nav{
+    border-color:darkgray;
+    width: 152%;
+    border: 1px solid;
+    line-height: 30px;
+    text-align: center;
+    left: 100px;
+    position: absolute;
+    color:rgb(208, 230, 11);
+    background-color:rgb(103, 105, 109);
+}
+nav ul li{
+    border-color:rgb(116, 109, 14);
+    width: 20%;
+    height: 30px;
+    border: 1px solid;
+    float: left;
+    list-style: none;
+    text-align: center;
+    background-color:rgb(119, 116, 80);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+nav ul li:hover ul{
+    display:block;
+
+}
+nav ul li ul{
+    display: none;
+}
+nav ul li ul li{
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    color: rgba(173, 138, 20, 0.973);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma bold, sans-serif;
+}
